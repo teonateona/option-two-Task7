@@ -1,0 +1,170 @@
+
+:root {
+    --logo-sm: 64px;
+    --logo-md: 128px;
+    --main-silver: #C0B4B4;
+    --header-p-sm-fs: 2.4rem;
+    --header-p-md-fs: 3.2rem;
+    --header-p-lg-fs: 4rem;
+    --main-brown:  #2A2626;
+    --section-title-sm: 3.6rem;
+    --section-title-md: 4.8rem;
+
+
+}
+
+
+
+/*** header ***/
+
+.header {
+    background-image: url(../assets/img/header-bg-sm.png);
+    height: 696px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 30px 0 30px;
+}
+
+.logo-L {
+    color: #FFFFFF;
+    font-family: 'miltoniantatoo' , cursive;
+    font-size: var(--logo-sm);
+    font-weight: 400;
+    line-height: 76px;
+}
+
+.navbar {
+    display: none;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+.header-text {
+    font-family: 'GentiumBookPlus' , cursive;
+    line-height: 28px;
+    text-align: center;
+    color: var(--main-silver);
+    font-size: var(--header-p-sm-fs);
+    margin-bottom: 2em;
+    width: 420px;
+
+}
+
+/*** content-one ***/
+
+.content-one {
+    background: var(--main-brown)
+}
+
+.content-one-title {
+    font-family: 'GentiumBookPlus-regular', cursive;
+    font-size: var(--section-title-sm);
+    font-weight: 400;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 48px;
+
+}
+
+.content-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 30px 48px 30px;
+    gap: 24px;
+}
+
+/*** content-two ***/
+
+
+.content-two-title {
+    font-family: 'GentiumBookPlus-regular', cursive;
+    font-size: var(--section-title-sm);
+    font-weight: 400;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 48px;
+
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 32px 30px 48px 30px;
+}
+.content-two-img {
+    width: 420px;
+    height: 280px;
+}
+.content-text {
+    background: #8E8B8B;
+    width: 420px;
+    height: 280px;
+}
+
+.text {
+    font-family: 'GentiumBookPlus' , cursive;
+    font-size: 1.6rem;
+    line-height: 18px;
+    text-align:justify;
+    color: #FFFFFF;
+    padding: 3em;
+}
+
+
+
+/*** footer ***/
+
+.footer {
+    background: var(--main-brown)
+}
+
+.footer-logo-L {
+    color: #FFFFFF;
+    font-family: 'miltoniantatoo' , cursive;
+    font-size: var(--logo-sm);
+    font-weight: 400;
+    line-height: 76px;
+    display: none;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+    gap: 36px;
+}
+
+
+@font-face {
+    src: url(../assets/font/MiltonianTattoo-Regular.ttf);
+    font-family: 'miltoniantatoo';
+}
+
+@font-face {
+    src: url(../assets/font/GentiumBookPlus-Bold.ttf);
+    font-family: 'GentiumBookPlus';
+}
+
+@font-face {
+    src: url(../assets/font/GentiumBookPlus-Regular.ttf);
+    font-family: 'GentiumBookPlus-regular';
+}
+
+
